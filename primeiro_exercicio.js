@@ -15,12 +15,9 @@ for (let cont = 0; cont < numeros.length; cont++) {
 
 console.log(soma)
 
-
-
 for (let cont = 0; cont < numeros.length; cont++) {
      //aqui está exibindo um numero por linha!!!
     console.log(numeros[cont])
-    
 }
 
 
