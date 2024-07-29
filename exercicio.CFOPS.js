@@ -7,10 +7,15 @@ let somaProdutosTotal = 0
 // let somaProdutoCfop5102 = 0
 // let somaProdutoCfop5405 = 0
 let cfops = []
+let valoresCfops = []
 
-cfops[5102]= 154.22
+// teste[i] = 10
+// teste[i] = 5
+// console.log(teste)
 
-console.log(cfops)
+// cfops[5102] = 154.22
+
+// console.log(cfops)
 
 let produtos = [
     //CFOP, Valor
@@ -33,19 +38,12 @@ for (let index = 0; index < produtos.length; index++) {
     somaProdutosTotal = somaProdutosTotal + produtos[index][1]
 }
 
+// console.log(cfops[produtos[0][0]])
+
 for (let index = 0; index < produtos.length; index++) {
-        cfops[produtos[index][0]] = 1
-        
+    cfops[produtos[index][0]]
 }
 console.table(cfops)
-
-// console.log(somaProdutoCfop5101)
-// console.log(somaProdutoCfop5102)
-// console.log(somaProdutoCfop5405)
-// console.log(produtos[0][1])
-console.table(produtos)
-
-
 
 
 // if (produtos[index][0] == 5101) {
@@ -55,3 +53,4 @@ console.table(produtos)
 // } if (produtos[index][0] == 5405){
 //     somaProdutoCfop5405 = somaProdutoCfop5405 + produtos[index][1]
 // }
+
