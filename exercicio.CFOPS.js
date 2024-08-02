@@ -4,7 +4,6 @@
 
 let somaProdutosTotal = 0
 let cfops = []
-let valoresCfops = []
 
 let produtos = [
     //CFOP, Valor
@@ -27,17 +26,13 @@ for (let index = 0; index < produtos.length; index++) {
 }
 
 for (let index = 0; index < produtos.length; index++) {
-
-    cfops[produtos[index][0]] = 1
-
-    console.log("CFOP TABELA PRODUTOS",produtos[index][0])
-    console.log("valores tabela nova: ",cfops[produtos[index][0]])
-
-    if (cfops[produtos[index][0]] == cfops + 1 ) {
-        console.log("deu certo")
+    if (cfops[produtos[index][0]]) {
+        cfops[produtos[index][0]] += produtos[index][1]
+    } else {
+        cfops[produtos[index][0]] = produtos[index][1]
     }
 }
 
 console.table(cfops)
-console.table(produtos)
+
 
