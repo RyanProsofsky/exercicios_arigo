@@ -1,36 +1,16 @@
-//Sortear 6 numeros de 1 a 60 sem repetir.
+//Sortear 6 numeros de 1 a 60 sem repetir
+//Primeiro verificar se tem número repetido, e depois delimitar para ter somente 6 números
+
 let numeros = []
 
-for (let index = 0; index < 6; index++) {
-    let gerador = Math.floor(Math.random() * (60 - 1)) + 1
-
-
+while(numeros.length < 6){
+    const gerador = Math.floor(Math.random() * (60 - 1)) + 1
 
     if (numeros.includes(gerador)) {
-        console.log("numero repetido")
-
-        gerador
-    }else {
-        numeros[index] = gerador
+        // console.log("numero repetido")
+    } else {
+        numeros.push(gerador)
     }
 }
 
 console.log(numeros)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
