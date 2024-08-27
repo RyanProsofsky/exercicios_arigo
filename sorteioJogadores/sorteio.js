@@ -5,7 +5,7 @@
 const participantes = {
 
     "gilson": [
-        
+
     ],
 
     "joao": [
@@ -146,28 +146,29 @@ const jogadores = {
 }
 
 for (const chave in jogadores) {
-    let sorteio = jogadores[chave][Math.floor(Math.random() * jogadores[chave].length)]
-    // console.log("Chave" + chave)
-    // console.log("Valor" + jogadores[chave])
-    participantes["joao"].push(sorteio) 
+    let sorteio = jogadores[chave][Math.floor(Math.random() * jogadores[chave].length)] //van de vem
+    participantes.push(sorteio)
+
+    // console.log(participantes.joao)
+
+    if (chave == "ZG") {
+        if () { //van de vem
+            console.log("tem esse valor")
+        } else {
+            sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
+            participantes.joao.push(sorteio)
+        }
+    }  
 }
 
-
-// aqui esta sorteando o jogador(GO)
-
-
-// console.log(Object.keys(jogadores))
-// console.log(Object.values(jogadores))
+console.log(participantes.joao)
 
 
+// if (participantes.joao.includes(sorteio)) { //van de vem
+//     console.log("tem esse valor")
 
 // console.log(sorteio)
 // participantes["joao"]
-
-console.log(participantes["joao"])
-
-
-
 
 //aqui os jogadores estão sendo puxado para o array "joao"
 // participantes["joao"].push(jogadores)
