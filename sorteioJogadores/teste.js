@@ -1,7 +1,3 @@
-// Sortear Times
-// sortear 3 times, time para o Gilson, time para o joao e time para o Paulo.
-// Cada time deve ter apenas 1 jogador em cada posição e obviamente sem repetir jogadores dentre os 3 times.
-// formacao  1 4 3 3 
 const participantes = {
 
     "gilson": [
@@ -129,61 +125,24 @@ const jogadores = {
     ]
 }
 
-for (const jogador in jogadores) {
-    for (const participante in participantes) {
+
+
+for (const participante in participantes) {
+    for (const jogador in jogadores) {
         let sorteio = jogadores[jogador][Math.floor(Math.random() * jogadores[jogador].length)]
         participantes[participante].push(sorteio)
 
-        // if () {
-            
+        if(jogador == "ZG"){
+            if (participantes[participantes].includes(jogadores[jogador])) {
+                console.log("jogador existe")
+            }
+        }
+
+        // if (participantes[participante].includes(jogadores[jogador])) {
+        //     console.log("o jogador existe")
         // }
     }
+    // console.log(participantes)
+}
 
-  
-
-        // if (participantes[participante].includes(jogadores.length)) {
-        //     console.log("jogador repetidos")
-        // }
-
-        // if (jogadores[jogador]) {
-
-        // }
-    }
-
-console.table(participantes)
 // console.log(participantes)
-
-
-
-
-
-
-
-// if (chave == "ZG") {
-//     let sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
-
-//     for (const teste in participantes) {
-//         participantes[teste].push(sorteio)
-
-//         if (participantes[teste].includes(jogadores.ZG)) {
-//             console.log("nome repetido")
-//         }
-
-//     }
-// }
-
-
-
-
-// for (const teste in participantes) {
-//     if (chave == "ZG") {
-//         sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
-//         participantes[teste].push(sorteio)
-
-//         if (participantes[teste].includes(jogadores[chave])) {
-//             console.log("nome repetido")
-//         }
-//     }
-// }
-
-
