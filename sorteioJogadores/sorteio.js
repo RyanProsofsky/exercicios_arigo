@@ -23,14 +23,7 @@ const jogadores = {
     "GO": [
         "Gianluigi Donnarumma",
         "Lukas Hradecky",
-        "Yann Sommer",
-        "Mike Maignan",
-        "Manuel Neuer",
-        "Marc-Andre ter Stegen",
-        "Jan Oblak",
-        "Ederson",
-        "Emiliano Dibu Martinez",
-        "Alisson"
+    
     ],
 
     "ZG": [
@@ -61,32 +54,7 @@ const jogadores = {
         "Julian Brandt",
         "Warren Zaire-Emery",
         "Enzo Fernández",
-        "Federico Valverde",
-        "Lucas Paquetá",
-        "Granit Xhaka",
-        "João Palhinha",
-        "Bernardo Silva",
-        "Gavi",
-        "Hakan Calhanoglu",
-        "Eduardo Camavinga",
-        "Alexis Mac Allister",
-        "Bruno Guimarães",
-        "Xavi Simons",
-        "Joshua Kimmich",
-        "Frenkie de Jong",
-        "Nicolo Barella",
-        "Jamal Musiala",
-        "Kai Havertz",
-        "Kevin De Bruyne",
-        "Bruno Fernandes",
-        "Pedri",
-        "Aurelién Tchouaméni",
-        "Florian Wirtz",
-        "Declan Rice",
-        "Toni Kroos",
-        "Martin Ødegaard",
-        "Jude Bellingham",
-        "Rodri"
+       
     ],
 
     "AT": [
@@ -94,29 +62,14 @@ const jogadores = {
         "Robert Lewandowski",
         "Niclas Füllkrug",
         "Paulo Dybala",
-        "Dusan Vlahovic",
-        "Victor Boniface",
-        "Alexander Isak",
-        "Ollie Watkins",
-        "Cristiano Ronaldo",
-        "Victor Osimhen",
-        "Lautaro Martínez",
-        "Cole Palmer",
-        "Son Heung-Min",
-        "Mohamed Salah",
-        "Erling Haaland",
-        "Harry Kane",
-        "Kylian Mbappé"
+       
     ],
 
     "PD": [
         "Jack Grealish",
         "Leroy Sané",
-        "Khvicha Kvaratskhelia",
-        "Luis Díaz",
-        "Rodrygo",
-        "Bukayo Saka",
-        "Phil Foden"
+        "Khvicha Kvaratskhelia"
+        
     ],
 
     "PE": [
@@ -129,15 +82,15 @@ const jogadores = {
     ]
 }
 
-for (const jogador in jogadores) {
-    for (const participante in participantes) {
-        let sorteio = jogadores[jogador][Math.floor(Math.random() * jogadores[jogador].length)]
-        participantes[participante].push(sorteio)
+// for (const jogador in jogadores) {
+//     for (const participante in participantes) {
+//         let sorteio = jogadores[jogador][Math.floor(Math.random() * jogadores[jogador].length)]
+//         participantes[participante].push(sorteio)
 
         // if () {
             
         // }
-    }
+    // }
 
   
 
@@ -148,15 +101,10 @@ for (const jogador in jogadores) {
         // if (jogadores[jogador]) {
 
         // }
-    }
+    // }
 
-console.table(participantes)
+// console.table(participantes)
 // console.log(participantes)
-
-
-
-
-
 
 
 // if (chave == "ZG") {
@@ -173,8 +121,6 @@ console.table(participantes)
 // }
 
 
-
-
 // for (const teste in participantes) {
 //     if (chave == "ZG") {
 //         sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
@@ -186,4 +132,6 @@ console.table(participantes)
 //     }
 // }
 
+console.table(jogadores)
 
+console.log(jogadores[1])

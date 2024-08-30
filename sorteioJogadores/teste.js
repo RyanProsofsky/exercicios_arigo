@@ -5,7 +5,7 @@ const participantes = {
     ],
 
     "joao": [
-
+        //cr7
 
     ],
 
@@ -15,41 +15,138 @@ const participantes = {
     ]
 }
 
-const jogadores = {
+const posicoes = {
     "GO": [
-        "Gianluigi Donnarumma",
-        "Lukas Hradecky",
-        "Yann Sommer",
-        "Mike Maignan",
         "Manuel Neuer",
-        "Marc-Andre ter Stegen",
+        "Alisson Becker",
         "Jan Oblak",
-        "Ederson",
-        "Emiliano Dibu Martinez",
-        "Alisson"
+        "Thibaut Courtois",
+        "Ederson Moraes",
+        "Gianluigi Donnarumma",
+        "Keylor Navas",
+        "Hugo Lloris",
+        "Marc-André ter Stegen",
+        "David de Gea",
+        "Emiliano Martínez",
+        "Samir Handanovic",
+        "Kasper Schmeichel",
+        "Mike Maignan",
+        "Jordan Pickford",
+        "Yassine Bounou",
+        "Péter Gulácsi",
+        "Wojciech Szczesny",
+        "Nick Pope",
+        "Alex Meret",
+        "Bernd Leno",
+        "Unai Simón",
+        "Edouard Mendy",
+        "André Onana",
+        "Lukáš Hrádecký",
+        "Salvatore Sirigu",
+        "Dean Henderson",
+        "Sergio Asenjo",
+        "Rui Patrício",
+        "Steve Mandanda"
     ],
 
     "ZG": [
-        "Micky Van de Ven",
-        "Goncalo Inacio",
+        "Sergio Ramos",
+        "Virgil van Dijk",
+        "Thiago Silva",
+        "Raphaël Varane",
+        "Kalidou Koulibaly",
+        "Giorgio Chiellini",
+        "Leonardo Bonucci",
+        "Marquinhos",
+        "Mats Hummels",
+        "Aymeric Laporte",
+        "Rúben Dias",
+        "David Alaba",
+        "Eder Militão",
+        "Gerard Piqué",
+        "Antonio Rüdiger",
+        "Presnel Kimpembe",
         "Jules Koundé",
-        "Jules Koundé"
+        "Stefan de Vrij",
+        "Toby Alderweireld",
+        "Matthijs de Ligt",
+        "José Giménez",
+        "Diego Godín",
+        "Alessandro Bastoni",
+        "Clement Lenglet",
+        "Joe Gomez",
+        "Niklas Süle",
+        "Pau Torres",
+        "Ibrahima Konaté",
+        "Milan Škriniar",
+        "James Tarkowski"
     ],
 
     "LD": [
+        "Dani Alves",
         "Trent Alexander-Arnold",
-        "Jeremie Frimpong",
-        "Dani Carvajal",
+        "João Cancelo",
+        "Kyle Walker",
         "Achraf Hakimi",
-        "Kyle Walker"
+        "Kieran Trippier",
+        "César Azpilicueta",
+        "Dani Carvajal",
+        "Aaron Wan-Bissaka",
+        "Reece James",
+        "Benjamin Pavard",
+        "Sergi Roberto",
+        "Ricardo Pereira",
+        "Thomas Meunier",
+        "Héctor Bellerín",
+        "Nélson Semedo",
+        "Stefan Lainer",
+        "Danilo",
+        "Kevin Mbabu",
+        "Juan Cuadrado",
+        "Santiago Arias",
+        "Serge Aurier",
+        "Davide Calabria",
+        "Lukas Klostermann",
+        "Leo Dubois",
+        "Timothy Castagne",
+        "Mario Fernandes",
+        "Hans Hateboer",
+        "Elseid Hysaj",
+        "Giovanni Di Lorenzo"
     ],
 
     "LE": [
+        "Jordi Alba",
+        "Andrew Robertson",
+        "Theo Hernández",
         "Ferland Mendy",
-        "Theo Hernandez",
-        "Alejandro Grimaldo",
-        "Federico Dimarco",
-        "Andy Robertson"
+        "Alphonso Davies",
+        "Alex Sandro",
+        "Benjamin Mendy",
+        "Luke Shaw",
+        "Alex Telles",
+        "Marcos Acuña",
+        "Raphaël Guerreiro",
+        "Renan Lodi",
+        "José Gaya",
+        "Nicolás Tagliafico",
+        "Marcelo",
+        "Ben Chilwell",
+        "Sergio Reguilón",
+        "Leonardo Spinazzola",
+        "Robin Gosens",
+        "Grimaldo",
+        "Emerson Palmieri",
+        "Lucas Hernández",
+        "Patrick van Aanholt",
+        "Angeliño",
+        "Oleksandr Zinchenko",
+        "Aaron Cresswell",
+        "Christian Günter",
+        "Kieran Tierney",
+        "William Carvalho",
+        "Owen Wijndal"
+
     ],
 
     "MC": [
@@ -82,67 +179,137 @@ const jogadores = {
         "Toni Kroos",
         "Martin Ødegaard",
         "Jude Bellingham",
-        "Rodri"
+        "Rodri",
+        "Felipe Melo",
+        "Raphael Veiga",
+
     ],
 
     "AT": [
-        "Viktor Gyökeres",
         "Robert Lewandowski",
-        "Niclas Füllkrug",
-        "Paulo Dybala",
-        "Dusan Vlahovic",
-        "Victor Boniface",
-        "Alexander Isak",
-        "Ollie Watkins",
-        "Cristiano Ronaldo",
-        "Victor Osimhen",
-        "Lautaro Martínez",
-        "Cole Palmer",
-        "Son Heung-Min",
-        "Mohamed Salah",
         "Erling Haaland",
+        "Karim Benzema",
+        "Romelu Lukaku",
         "Harry Kane",
-        "Kylian Mbappé"
+        "Luis Suárez",
+        "Zlatan Ibrahimović",
+        "Edinson Cavani",
+        "Pierre-Emerick Aubameyang",
+        "Ciro Immobile",
+        "Gerard Moreno",
+        "Dusan Vlahović",
+        "Gabriel Jesus",
+        "Olivier Giroud",
+        "Lautaro Martínez",
+        "André-Pierre Gignac",
+        "Paulo Dybala",
+        "Patrick Bamford",
+        "Tammy Abraham",
+        "Raúl Jiménez",
+        "Arkadiusz Milik",
+        "Alfredo Morelos",
+        "Anthony Martial",
+        "Callum Wilson",
+        "Sebastián Haller",
+        "Wout Weghorst",
+        "Mauro Icardi",
+        "Diego Costa",
+        "Aleksandar Mitrović",
+        "Jonathan David"
     ],
 
     "PD": [
-        "Jack Grealish",
-        "Leroy Sané",
-        "Khvicha Kvaratskhelia",
-        "Luis Díaz",
-        "Rodrygo",
+        "Mohamed Salah",
+        "Lionel Messi",
+        "Riyad Mahrez",
+        "Jadon Sancho",
+        "Gareth Bale",
+        "Federico Chiesa",
+        "Angel Di Maria",
+        "Raphinha",
         "Bukayo Saka",
-        "Phil Foden"
+        "Ousmane Dembélé",
+        "Antony",
+        "Lucas Moura",
+        "Ferran Torres",
+        "Hakim Ziyech",
+        "Pedro Gonçalves",
+        "Domenico Berardi",
+        "Hirving Lozano",
+        "Nicolò Zaniolo",
+        "Marcos Asensio",
+        "Adama Traoré",
+        "Christian Pulisic",
+        "Jarrod Bowen",
+        "Rodrygo",
+        "Gerard Deulofeu",
+        "Joaquín",
+        "Ismaila Sarr",
     ],
 
     "PE": [
-        "Christian Pulisic",
-        "Ousmane Dembélé",
+        "Neymar Jr.",
+        "Kylian Mbappé",
+        "Sadio Mané",
+        "Vinícius Jr.",
+        "Marcus Rashford",
+        "Son Heung-min",
+        "Lorenzo Insigne",
+        "Jack Grealish",
+        "Ansu Fati",
+        "Eden Hazard",
+        "Phil Foden",
+        "Raheem Sterling",
+        "Kingsley Coman",
+        "Ivan Perisic",
+        "Harvey Barnes",
+        "Mikel Oyarzabal",
+        "Leon Bailey",
+        "Steven Bergwijn",
+        "Anthony Martial",
+        "Wilfried Zaha",
+        "Memphis Depay",
         "Rafael Leão",
-        "Lionel Messi",
-        "Vinícius Júnior",
-        "Antoine Griezmann"
+        "Diogo Jota",
+        "Gabriel Martinelli",
+        "Thorgan Hazard",
+        "Luis Díaz",
+        "Franck Ribéry",
+        "Felipe Anderson",
+        "Allan Saint-Maximin"
     ]
 }
 
-
+let jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
 
 for (const participante in participantes) {
-    for (const jogador in jogadores) {
-        let sorteio = jogadores[jogador][Math.floor(Math.random() * jogadores[jogador].length)]
-        participantes[participante].push(sorteio)
+   
 
-        if(jogador == "ZG"){
-            if (participantes[participantes].includes(jogadores[jogador])) {
-                console.log("jogador existe")
-            }
-        }
 
-        // if (participantes[participante].includes(jogadores[jogador])) {
-        //     console.log("o jogador existe")
-        // }
-    }
-    // console.log(participantes)
+
+    // for (const posicao in posicoes) {
+       
+
+    //     participantes[participante].push(jogador)
+    // }  
+
+    // jogador
+
+    // for (jogador in posicoes) {
+    //     if (participantes[participante].includes(jogador)) {
+    //         console.log("jogador repetido")
+    //     } else {
+    //         console.log("jogador nao e repetido")
+    //     }
+    // }
 }
 
-// console.log(participantes)
+console.log(participantes)
+
+
+// if (participantes[participante].includes(jogador) == true) {
+//     console.log("jogador repetido")
+// } else {
+//     participantes[participante].push(jogador)
+//     console.log("jogador nao repetido")
+// }
