@@ -1,137 +1,132 @@
-// Sortear Times
-// sortear 3 times, time para o Gilson, time para o joao e time para o Paulo.
-// Cada time deve ter apenas 1 jogador em cada posição e obviamente sem repetir jogadores dentre os 3 times.
-// formacao  1 4 3 3 
 const participantes = {
+  "gilson": [
 
-    "gilson": [
+  ],
 
-    ],
+  "Paulo": [
 
-    "joao": [
+  ],
 
+  "Joao": [
 
-    ],
-
-    "paulo": [
-
-
-    ]
+  ]
 }
 
-const jogadores = {
-    "GO": [
-        "Gianluigi Donnarumma",
-        "Lukas Hradecky",
-    
-    ],
+const posicoes = {
+  "GO": [
+    "Gianluigi Donnarumma",
+    "Lukas Hradecky",
+    "Yann Sommer",
+    "Mike Maignan",
+    "Manuel Neuer",
+    "Marc-Andre ter Stegen",
+    "Jan Oblak",
+    "Ederson",
+    "Emiliano Dibu Martinez",
+    "Alisson",
+    "Cortois",
+    "Onana",
+    "Bento",
+    "Bono",
+    "Cassio",
+  ],
 
-    "ZG": [
-        "Micky Van de Ven",
-        "Goncalo Inacio",
-        "Jules Koundé",
-        "Jules Koundé"
-    ],
+  "ZG": [
+    "Sergio Ramos",
+    "Virgil van Dijk",
+    "Thiago Silva",
+    "Raphaël Varane",
+    "Kalidou Koulibaly",
+    "Gustavo Gomez",
+    "Murilo"
+  ],
 
-    "LD": [
-        "Trent Alexander-Arnold",
-        "Jeremie Frimpong",
-        "Dani Carvajal",
-        "Achraf Hakimi",
-        "Kyle Walker"
-    ],
+  "LD": [
+    "Dani Alves",
+    "Trent Alexander-Arnold",
+    "João Cancelo",
+    "Kyle Walker",
+    "Achraf Hakimi",
+    "Marco Rocha",
+    "Arana"
+  ],
 
-    "LE": [
-        "Ferland Mendy",
-        "Theo Hernandez",
-        "Alejandro Grimaldo",
-        "Federico Dimarco",
-        "Andy Robertson"
-    ],
+  "LE": [
+    "Jordi Alba",
+    "Andrew Robertson",
+    "Theo Hernández",
+    "Ferland Mendy",
+    "Alphonso Davies",
+    "Piquerez",
+    "Victor Luis"
+  ],
 
-    "MC": [
-        "James Maddison",
-        "Julian Brandt",
-        "Warren Zaire-Emery",
-        "Enzo Fernández",
-       
-    ],
+  "MC": [
+    "James Maddison",
+    "Julian Brandt",
+    "Warren Zaire-Emery",
+    "Enzo Fernández",
+    "Federico Valverde",
+    "Casemiro",
+    "Raphael Peiga"
+  ],
 
-    "AT": [
-        "Viktor Gyökeres",
-        "Robert Lewandowski",
-        "Niclas Füllkrug",
-        "Paulo Dybala",
-       
-    ],
+  "AT": [
+    "Robert Lewandowski",
+    "Erling Haaland",
+    "Karim Benzema",
+    "Romelu Lukaku",
+    "Rony",
+    "Cristiano Ronaldo",
+    "Flaco Lopez"
+  ],
 
-    "PD": [
-        "Jack Grealish",
-        "Leroy Sané",
-        "Khvicha Kvaratskhelia"
-        
-    ],
+  "PD": [
+    "Mohamed Salah",
+    "Lionel Messi",
+    "Riyad Mahrez",
+    "Jadon Sancho",
+    "Dudu",
+    "Keno",
+    "Gabigol"
+  ],
 
-    "PE": [
-        "Christian Pulisic",
-        "Ousmane Dembélé",
-        "Rafael Leão",
-        "Lionel Messi",
-        "Vinícius Júnior",
-        "Antoine Griezmann"
-    ]
+  "PE": [
+    "Neymar Jr.",
+    "Kylian Mbappé",
+    "Sadio Mané",
+    "Vinícius Jr.",
+    "Marcus Rashford",
+    "Son Heung-min",
+    "Bruno Henrique"
+  ]
 }
 
-// for (const jogador in jogadores) {
-//     for (const participante in participantes) {
-//         let sorteio = jogadores[jogador][Math.floor(Math.random() * jogadores[jogador].length)]
-//         participantes[participante].push(sorteio)
+const jogadoresRepetidos = []
 
-        // if () {
-            
-        // }
-    // }
+let jogador
+let cont = 1;
+// let GO = posicoes["GO"]
 
+//usar uma variavel para armazenar as posicoes 
+
+for (const participante in participantes) {
+  for (const posicao in posicoes) {
+    // while (participantes[participante].length <= 11) {
+      jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
+      console.log(participante)
   
-
-        // if (participantes[participante].includes(jogadores.length)) {
-        //     console.log("jogador repetidos")
-        // }
-
-        // if (jogadores[jogador]) {
-
-        // }
-    // }
-
-// console.table(participantes)
-// console.log(participantes)
-
-
-// if (chave == "ZG") {
-//     let sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
-
-//     for (const teste in participantes) {
-//         participantes[teste].push(sorteio)
-
-//         if (participantes[teste].includes(jogadores.ZG)) {
-//             console.log("nome repetido")
-//         }
-
-//     }
+      if (jogadoresRepetidos.includes(jogador)) {
+        console.log("loop infinito")
+      } else {
+        participantes[participante].push(jogador)
+        jogadoresRepetidos.push(jogador)
+      }
+    }
+    // jogador = 0
+    // cont = 0
+  }
 // }
 
 
-// for (const teste in participantes) {
-//     if (chave == "ZG") {
-//         sorteio = jogadores["ZG"][Math.floor(Math.random() * jogadores["ZG"].length)]
-//         participantes[teste].push(sorteio)
 
-//         if (participantes[teste].includes(jogadores[chave])) {
-//             console.log("nome repetido")
-//         }
-//     }
-// }
-
-console.table(jogadores)
-
-console.log(jogadores[1])
