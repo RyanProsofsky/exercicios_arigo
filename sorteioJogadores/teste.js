@@ -32,33 +32,76 @@ const posicoes = {
   ],
 
   "ZG": [
-    "Sergio Ramos",
-    "Virgil van Dijk",
+    "Micky Van de Ven",
+    "Goncalo Inacio",
+    "Gabriel Magalhaes",
+    "Ben White",
+    "Mats Hummels",
+    "Jonathan Tah",
+    "Ibrahima Konaté",
+    "Pau Torres",
+    "Josko Gvardiol",
+    "Ruben Dias",
+    "Lucas Hernandez",
+    "Matthijs de Ligt",
+    "Alessandro Bastoni",
+    "Ronald Araujo",
+    "John Stones",
+    "Marquinhos",
+    "Virgil Van Dijk",
+    "William Saliba",
+    "Antonio Rüdiger",
+    "Skrinnar",
+    "Lisandro Martines",
+    "Ake",
+    "Sule",
+    "Koulibaly",
+    "Laporte",
+    "Felix Torres",
+    "Gustavo Gomes",
+    "Andre Ramalho",
+    "Militao",
     "Thiago Silva",
-    "Raphaël Varane",
-    "Kalidou Koulibaly",
-    "Gustavo Gomez",
-    "Murilo"
+    "Kim"
   ],
 
   "LD": [
-    "Dani Alves",
     "Trent Alexander-Arnold",
-    "João Cancelo",
-    "Kyle Walker",
+    "Jeremie Frimpong",
+    "Dani Carvajal",
     "Achraf Hakimi",
-    "Marco Rocha",
-    "Arana"
+    "Kyle Walker",
+    "Jules Koundé",
+    "Yan Kouto",
+    "Ricardo Pereira",
+    "Cancelo",
+    "Reece James",
+    "Pavard",
+    "Molina",
+    "Luke Shaw",
+    "Tomiasu",
+    "Trippier",
+    "Mateuzin"
   ],
 
   "LE": [
-    "Jordi Alba",
-    "Andrew Robertson",
-    "Theo Hernández",
     "Ferland Mendy",
+    "Theo Hernandez",
+    "Alejandro Grimaldo",
+    "Federico Dimarco",
+    "Andy Robertson",
     "Alphonso Davies",
+    "Tagliafico",
+    "Gosens",
+    "Malacia",
+    "Arana",
+    "Cucurela",
+    "Vina",
     "Piquerez",
-    "Victor Luis"
+    "Zinchenko",
+    "Wan Bissaka",
+    "Ben Chiwell",
+    "Ben White"
   ],
 
   "MC": [
@@ -67,67 +110,171 @@ const posicoes = {
     "Warren Zaire-Emery",
     "Enzo Fernández",
     "Federico Valverde",
+    "Lucas Paquetá",
+    "Granit Xhaka",
+    "João Palhinha",
+    "Bernardo Silva",
+    "Gavi",
+    "Hakan Calhanoglu",
+    "Eduardo Camavinga",
+    "Alexis Mac Allister",
+    "Bruno Guimarães",
+    "Xavi Simons",
+    "Joshua Kimmich",
+    "Frenkie de Jong",
+    "Nicolo Barella",
+    "Jamal Musiala",
+    "Elliot",
+    "Kevin De Bruyne",
+    "Bruno Fernandes",
+    "Pedri",
+    "Aurelién Tchouaméni",
+    "Florian Wirtz",
+    "Declan Rice",
+    "Toni Kroos",
+    "Martin Ødegaard",
+    "Jude Bellingham",
+    "Rodri",
+    "De Paul",
+    "Maino",
+    "Neymar",
+    "Barella",
+    "Kalvin Philips",
+    "Gallagher",
+    "Messi",
+    "Luis Alberto",
+    "Garro",
+    "Tilemans",
+    "Musiala",
+    "Arda Guller",
+    "Vitinha",
+    "Palmer",
+    "Arrascaeta",
+    "Sabitzer",
+    "Joelinton",
+    "Tonali",
+    "De La Cruz",
+    "Rafael Veiga",
+    "Thomas Partey",
+    "Dani Olmo",
+    "Gravenbech",
+    "Caicedo",
     "Casemiro",
-    "Raphael Peiga"
+    "Kante"
   ],
 
   "AT": [
+    "Viktor Gyökeres",
     "Robert Lewandowski",
-    "Erling Haaland",
-    "Karim Benzema",
-    "Romelu Lukaku",
-    "Rony",
+    "Niclas Füllkrug",
+    "Dusan Vlahovic",
+    "Victor Boniface",
+    "Alexander Isak",
+    "Ollie Watkins",
     "Cristiano Ronaldo",
-    "Flaco Lopez"
+    "Victor Osimhen",
+    "Lautaro Martínez",
+    "Antoine Griezmann",
+    "João Felix",
+    "Endrik",
+    "Erling Haaland",
+    "Harry Kane",
+    "Vegetti",
+    "Ilicit",
+    "Shik",
+    "Darvin Nunes",
+    "Bouwen",
+    "Gakpo",
+    "Jota",
+    "Imobbile",
+    "Lukaku",
+    "Haller",
+    "Firmino",
+    "Gabriel Jesus",
+    "Julian Alvarez",
+    "Kai Havertz",
+    "Nkuku",
+    "Zaha",
+    "Calvert Lewin",
+    "Kylian Mbappé"
   ],
 
   "PD": [
     "Mohamed Salah",
-    "Lionel Messi",
-    "Riyad Mahrez",
-    "Jadon Sancho",
-    "Dudu",
-    "Keno",
-    "Gabigol"
+    "Leroy Sané",
+    "Rodrygo",
+    "Bukayo Saka",
+    "Phil Foden",
+    "Lamin Yamal",
+    "Raphinha",
+    "Dembele",
+    "Saka",
+    "Luiz Henrique",
+    "Coman",
+    "Nhac Willians",
+    "Mahrez",
+    "Di Maria",
+    "Ziech",
+    "Paulo Dybala",
+    "Aspas",
+    "Savinho",
+    "LLorente",
+    "Almiron",
+    "Sancho"
   ],
 
   "PE": [
-    "Neymar Jr.",
-    "Kylian Mbappé",
-    "Sadio Mané",
-    "Vinícius Jr.",
-    "Marcus Rashford",
-    "Son Heung-min",
-    "Bruno Henrique"
+    "Khvicha Kvaratskhelia",
+    "Michael",
+    "Dybala",
+    "Troussard",
+    "Gabriel Martinelli",
+    "Luis Díaz",
+    "Jack Grealish",
+    "Son Heung-Min",
+    "Christian Pulisic",
+    "Ousmane Dembélé",
+    "Rafael Leão",
+    "Nico Willians",
+    "Gnabry",
+    "Fosberg",
+    "Chiesa",
+    "Mane",
+    "Vinícius Júnior",
+    "Rashford",
+    "Ansu Fati",
+    "Sterling",
+    "Mudrik",
+    "Barnes",
+    "Gordon",
+    "Doku"
   ]
 }
 
 const jogadoresRepetidos = []
-
-let jogador
-let cont = 1;
+//USAR UMA VARIAVEL PARA ARMAZENAR AS POSICOES
+let pozicoes = Object.keys(posicoes)
+let teste = posicoes["GO"]
 
 for (const participante in participantes) {
   for (const posicao in posicoes) {
-    while (participantes[participante].length <= 11) {
-      jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
 
-      if (Object.values(participantes[participante]).includes(jogador)) { 
-        console.log("jogador repetido")
-        jogadoresRepetidos.push(jogador)
-      }else{
+    //ESSE WHILE SERVE ESTA PERCORRENDO O BLOCO DE CODIGO 11 VEZES
+    while (participantes[participante].length <= 11) {
+      const jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
+      if (jogadoresRepetidos.includes(jogador)) {
+        console.log("jogador repetido", jogador)
+      } else {
         participantes[participante].push(jogador)
+        jogadoresRepetidos.push(jogador)
       }
 
-      cont++
+      while (posicoes[posicao] == teste) {
+
+        jogadoresRepetidos.push(jogador)
+        
+      }
     }
-    jogador = 0
-    cont = 0
   }
 }
-
-
-console.log(participantes)
-console.log(jogadoresRepetidos)
-// console.log(participantes)
 
