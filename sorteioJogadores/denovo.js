@@ -1,105 +1,7 @@
 const participantes = {
-  "Gilson": {
-    "GO": [
-
-    ],
-
-    "ZG": [
-
-    ],
-
-    "LD": [
-
-    ],
-
-    "LE": [
-
-    ],
-
-    "MC": [
-
-    ],
-
-    "AT": [
-
-    ],
-
-    "PD": [
-
-    ],
-
-    "PE": [
-
-    ]
-  },
-
-  "Paulo": {
-    "GO": [
-
-    ],
-
-    "ZG": [
-
-    ],
-
-    "LD": [
-
-    ],
-
-    "LE": [
-
-    ],
-
-    "MC": [
-
-    ],
-
-    "AT": [
-
-    ],
-
-    "PD": [
-
-    ],
-
-    "PE": [
-
-    ]
-  },
-
-  "Joao": {
-    "GO": [
-
-    ],
-
-    "ZG": [
-
-    ],
-
-    "LD": [
-
-    ],
-
-    "LE": [
-
-    ],
-
-    "MC": [
-
-    ],
-
-    "AT": [
-
-    ],
-
-    "PD": [
-
-    ],
-
-    "PE": [
-
-    ]
-  }
+  "Gilson": {},
+  "Paulo": {},
+  "Joao": {}
 }
 
 const posicoes = {
@@ -357,9 +259,9 @@ const jogadoresRepetidos = []
 
 for (const participante in participantes) {
   for (const posicao in posicoes) {
-    while (participantes[participante].length < posicoes.length) {
+    participantes[participante][posicao] = []
+    while (participantes[participante][posicao].length < jogadores[posicao]) {
       sorteioJogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
-
       if (jogadoresRepetidos.includes(sorteioJogador)) {
         //nao faz nada
       } else {

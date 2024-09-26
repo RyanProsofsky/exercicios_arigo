@@ -1,15 +1,105 @@
 const participantes = {
-  "gilson": [
+  "Gilson": {
+    "GO": [
 
-  ],
+    ],
 
-  "Paulo": [
+    "ZG": [
 
-  ],
+    ],
 
-  "Joao": [
+    "LD": [
 
-  ]
+    ],
+
+    "LE": [
+
+    ],
+
+    "MC": [
+
+    ],
+
+    "AT": [
+
+    ],
+
+    "PD": [
+
+    ],
+
+    "PE": [
+
+    ]
+  },
+
+  "Paulo": {
+    "GO": [
+
+    ],
+
+    "ZG": [
+
+    ],
+
+    "LD": [
+
+    ],
+
+    "LE": [
+
+    ],
+
+    "MC": [
+
+    ],
+
+    "AT": [
+
+    ],
+
+    "PD": [
+
+    ],
+
+    "PE": [
+
+    ]
+  },
+
+  "Joao": {
+    "GO": [
+
+    ],
+
+    "ZG": [
+
+    ],
+
+    "LD": [
+
+    ],
+
+    "LE": [
+
+    ],
+
+    "MC": [
+
+    ],
+
+    "AT": [
+
+    ],
+
+    "PD": [
+
+    ],
+
+    "PE": [
+
+    ]
+  }
 }
 
 const posicoes = {
@@ -251,27 +341,35 @@ const posicoes = {
   ]
 }
 
-const jogadoresRepetidos = []
 //USAR UMA VARIAVEL PARA ARMAZENAR AS POSICOES
-let GO = posicoes["GO"]
+const jogadores = {
+  "GO": 2,
+  "ZG": 4,
+  "LE": 2,
+  "LD": 2,
+  "MC": 6,
+  "AT": 3,
+  "PE": 2,
+  "PD": 2,
+}
 
+const jogadoresRepetidos = []
 
 
 
 for (const participante in participantes) {
   for (const posicao in posicoes) {
-    //ESSE WHILE SERVE ESTA PERCORRENDO O BLOCO DE CODIGO 11 VEZES
-    while (participantes[participante].length <= 11) {
+    while (participantes[participante][posicao].length < jogadores[posicao]) {
       const jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
       if (jogadoresRepetidos.includes(jogador)) {
         console.log("jogador repetido", jogador)
       } else {
-        participantes[participante].push(jogador)
+        participantes[participante][posicao].push(jogador)
         jogadoresRepetidos.push(jogador)
       }
     }
   }
 }
 
+// console.log(jogadoresRepetidos)
 console.log(participantes)
-console.log(jogadoresRepetidos)
