@@ -355,21 +355,19 @@ const jogadores = {
 
 const jogadoresRepetidos = []
 
-
-
 for (const participante in participantes) {
   for (const posicao in posicoes) {
-    while (participantes[participante][posicao].length < jogadores[posicao]) {
-      const jogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
-      if (jogadoresRepetidos.includes(jogador)) {
-        console.log("jogador repetido", jogador)
+    while (participantes[participante].length < posicoes.length) {
+      sorteioJogador = posicoes[posicao][Math.floor(Math.random() * posicoes[posicao].length)]
+
+      if (jogadoresRepetidos.includes(sorteioJogador)) {
+        //nao faz nada
       } else {
-        participantes[participante][posicao].push(jogador)
-        jogadoresRepetidos.push(jogador)
+        participantes[participante][posicao].push(sorteioJogador)
+        jogadoresRepetidos.push(sorteioJogador)
       }
     }
   }
 }
 
-// console.log(jogadoresRepetidos)
 console.log(participantes)
