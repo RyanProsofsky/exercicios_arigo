@@ -355,8 +355,6 @@ const jogadores = {
 
 const jogadoresRepetidos = []
 
-
-
 for (const participante in participantes) {
   for (const posicao in posicoes) {
     while (participantes[participante][posicao].length < jogadores[posicao]) {
@@ -371,5 +369,4 @@ for (const participante in participantes) {
   }
 }
 
-// console.log(jogadoresRepetidos)
 console.log(participantes)
